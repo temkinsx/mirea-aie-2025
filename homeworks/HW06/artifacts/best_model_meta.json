@@ -1,0 +1,18 @@
+{
+  "best_model_name": "HistGradientBoosting",
+  "selection_metric": "roc_auc",
+  "test_metrics": {
+    "accuracy": 0.9354166666666667,
+    "f1": 0.9003215434083601,
+    "roc_auc": 0.9730500292011579
+  },
+  "artifact_paths": {
+    "model": "artifacts/best_model.joblib",
+    "metrics": "artifacts/metrics_test.json",
+    "search_summaries": "artifacts/search_summaries.json",
+    "roc_curve": "artifacts/figures/roc_curve.png",
+    "pr_curve": "artifacts/figures/pr_curve.png",
+    "confusion_matrix": "artifacts/figures/confusion_matrix.png",
+    "permutation_importance": "artifacts/figures/permutation_importance.png"
+  }
+}
