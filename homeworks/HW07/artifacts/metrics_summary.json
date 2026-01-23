@@ -1,0 +1,124 @@
+{
+  "ds1": {
+    "kmeans_best": {
+      "algo": "kmeans",
+      "k": 2,
+      "silhouette": 0.5216395622404242,
+      "davies_bouldin": 0.6853295219054459,
+      "calinski_harabasz": 11786.954622671528,
+      "noise_share": null,
+      "n_clusters": 2
+    },
+    "dbscan_best": {
+      "algo": "dbscan",
+      "eps": 1.7,
+      "min_samples": 5,
+      "silhouette": 0.5216395622404242,
+      "davies_bouldin": 0.6853295219054459,
+      "calinski_harabasz": 11786.954622671528,
+      "noise_share": 0.0,
+      "n_clusters": 2
+    },
+    "agglomerative_best": {
+      "algo": "agglomerative",
+      "k": 2,
+      "linkage": "ward",
+      "silhouette": 0.5216395622404242,
+      "davies_bouldin": 0.6853295219054459,
+      "calinski_harabasz": 11786.954622671528,
+      "noise_share": null,
+      "n_clusters": 2
+    },
+    "final_choice": {
+      "algo": "kmeans",
+      "k": 2,
+      "silhouette": 0.5216395622404242,
+      "davies_bouldin": 0.6853295219054459,
+      "calinski_harabasz": 11786.954622671528,
+      "noise_share": null,
+      "n_clusters": 2
+    }
+  },
+  "ds2": {
+    "kmeans_best": {
+      "algo": "kmeans",
+      "k": 2,
+      "silhouette": 0.3068610017701601,
+      "davies_bouldin": 1.3234721699867644,
+      "calinski_harabasz": 3573.3933329348392,
+      "noise_share": null,
+      "n_clusters": 2
+    },
+    "dbscan_best": {
+      "algo": "dbscan",
+      "eps": 0.8,
+      "min_samples": 10,
+      "silhouette": 0.41382786375149716,
+      "davies_bouldin": 0.599695302009752,
+      "calinski_harabasz": 48.11904616959477,
+      "noise_share": 0.01175,
+      "n_clusters": 2
+    },
+    "agglomerative_best": {
+      "algo": "agglomerative",
+      "k": 2,
+      "linkage": "average",
+      "silhouette": 0.41976775922231674,
+      "davies_bouldin": 0.879128779599685,
+      "calinski_harabasz": 395.48256948317135,
+      "noise_share": null,
+      "n_clusters": 2
+    },
+    "final_choice": {
+      "algo": "agglomerative",
+      "k": 2,
+      "linkage": "average",
+      "silhouette": 0.41976775922231674,
+      "davies_bouldin": 0.879128779599685,
+      "calinski_harabasz": 395.48256948317135,
+      "noise_share": null,
+      "n_clusters": 2
+    }
+  },
+  "ds3": {
+    "kmeans_best": {
+      "algo": "kmeans",
+      "k": 3,
+      "silhouette": 0.31554470037825183,
+      "davies_bouldin": 1.1577256320598661,
+      "calinski_harabasz": 6957.162639510166,
+      "noise_share": null,
+      "n_clusters": 3
+    },
+    "dbscan_best": {
+      "algo": "dbscan",
+      "eps": 0.5,
+      "min_samples": 10,
+      "silhouette": 0.14243088104506607,
+      "davies_bouldin": 1.3932351326290715,
+      "calinski_harabasz": 1640.790703583512,
+      "noise_share": 0.0324,
+      "n_clusters": 2
+    },
+    "agglomerative_best": {
+      "algo": "agglomerative",
+      "k": 2,
+      "linkage": "average",
+      "silhouette": 0.42529612444453263,
+      "davies_bouldin": 0.813802016581118,
+      "calinski_harabasz": 8.943143115556799,
+      "noise_share": null,
+      "n_clusters": 2
+    },
+    "final_choice": {
+      "algo": "agglomerative",
+      "k": 2,
+      "linkage": "average",
+      "silhouette": 0.42529612444453263,
+      "davies_bouldin": 0.813802016581118,
+      "calinski_harabasz": 8.943143115556799,
+      "noise_share": null,
+      "n_clusters": 2
+    }
+  }
+}
